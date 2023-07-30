@@ -1,1 +1,85 @@
+.btn:hover {
+    color: red;
+    background-color: yellow;
+}
 
+.title:hover {
+    background-color: green;
+}
+
+#sidebar:link {
+    color: red;
+}
+
+.btn:active {
+    background-color: blue;
+}
+
+.btn:focus {
+    color: orange;
+    background-color: orange;
+}
+
+#target:target {
+    color: white;
+    background-color: green;
+}
+
+input[type="checkbox"]:checked ~ div{
+    color: white;
+    background-color: blue;
+}
+
+p:lang(uk) {
+    color: blue;
+}
+
+input:enabled {
+    color: red;
+    background-color: yellow;
+}
+
+input:disabled {
+    background-color: yellow;
+}
+
+input:read-write {
+    background-color: yellow;
+}
+
+input:read-only {
+    background-color: yellow;
+}
+
+input:valid {
+    background-color: green;
+}
+
+input:invalid {
+    background-color: red;
+}
+
+textarea:optional {
+    background-color: red;
+}
+
+input:out-of-range {
+    color: red;
+}
+
+input:in-range {
+    color: red;
+}
+
+input:placeholder-shown {
+    background-color: red;
+}
+
+button:focus-within {
+    color: white;
+    background-color: yellow;
+}
+
+input:invalid {
+    background-color: red;
+}
